@@ -54,6 +54,7 @@ toc_sticky: true
 ## 3. 코드
 다음은 n이 1,000,000일 때의 예시이다.
 - java 구현
+
 ```java
 final static int SIZE = 1000000000;
 
