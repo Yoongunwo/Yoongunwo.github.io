@@ -116,13 +116,19 @@
       }
     }
   }
+}
+
+.pagination_prev_next {
+  @include clearfix();
+  float: left;
+  width: 100%;
 
   /* next/previous buttons */
   &--pager {
     display: block;
     padding: 1em 2em;
-    float: left;
-    width: 50%;
+    //float: left;
+    width: 100%;
     font-family: $sans-serif;
     font-size: $type-size-5;
     font-weight: bold;
