@@ -20,13 +20,13 @@ title                    : "윤건우의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yoon Gunwo"
-description              : "더 좋은 개발자를 위한 과정을 기록하는 윤건우 입니다."
+description              : "Interested in Cloud Security"
 url                      : "https://Yoongunwo.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Yoongunwo/Yoongunwo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "매일 성장하는 개발자"
+masthead_title           : "Yoon's Blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Yoon Gunwo"
   avatar           : "myImages/profile/me1.jpg" # 프로필 사진 경로
-  bio              : "더 좋은 개발자를 위한 과정을 기록하는 윤건우 입니다."
+  bio              : "Interested In Cloud Security."
   location         : "Republic of korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:glove2275@pusan.ac.kr"
+      url: "mailto:glove2275@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://yoongunwo.github.io"
