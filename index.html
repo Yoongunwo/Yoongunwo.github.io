@@ -5,22 +5,34 @@
   <title>Gunwoo Yoon - Resume</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="header">
-    <div class="profile-photo">
-      <img src="./images/윤건우웹용.jpg" alt="Profile Photo">
+<head>
+    <body>
+        <div class="navbar">
+            <h2>Navigation</h2>
+            <a href="about.html">About</a>
+            <a href="pub.html">Publications</a>
+            <a href="proj.html">Projects</a>
+        </div>
+    </body>
+</head>
+
+<div class="main">
+    <div class="header" id="about">
+        <div class="profile-photo">
+        <img src="./images/윤건우웹용.jpg" alt="Profile Photo">
     </div>
     <div class="profile-info">
-      <h1>Gunwoo Yoon</h1>
-      <div class="subtitle">M.S. Student, Computer Science, Pusan National University</div>
-      <div class="contact">
+        <h1>Gunwoo Yoon</h1>
+        <div class="subtitle">M.S. Student, Computer Science, Pusan National University</div>
+        <div class="contact">
         <div><strong>Phone</strong> 010-3085-5199</div>
         <div><strong>E-mail</strong> glove2275@gmail.com</div>
-        <div><strong>LinkedIn</strong> linkedin.com/in/gunwooyoon</div>
+        <div><strong>LinkedIn</strong> https://www.linkedin.com/in/geonwoo-yoon-07172a374/</div>
         <div><strong>GitHub</strong> github.com/gunwooyoon</div>
-      </div>
+        </div>
     </div>
-  </div>
+</div>
+
 
   <div class="section">
     <p>
@@ -43,27 +55,57 @@
   <h2>Publications</h2>
   <ul>
     <li>
+        usenix on review -> arxiv
+    </li>
+    <li>
+        ccsw on review -> arxiv
+    </li>
+    <li>
+        transactions on cloud computing on review -> arxiv
+    </li>
+    <li>
       Seo, J., Shin, J., Yoon, G. W., Kim, J. S., & Choi, Y. H. (2025, March). Automated Cybersecurity Risk Assessment and Visualization Framework for Resilient Cloud IT Asset Management. In Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing (pp. 241-242).
     </li>
+    <a href="pub.html">[More]</a>
   </ul>
 
-  <h2>Research Projects</h2>
+  <h2>Projects</h2>
   <ul>
     <li>
-      <strong>Kubernetes-based System Call Monitoring</strong><br>
-      Designed a per-Pod system call collection system using eBPF tracepoints, program arrays, and ring buffers.
-      Evaluated latency, drop rate, and system overhead for various configurations.
+      <strong>CASB (Cloud Access Security Broker) (2024 - 2025)</strong><br>
+      casb
+      my role
+      develop front, backend, infra, agent, gpu server 
     </li>
     <li>
-      <strong>Contrastive Learning-based Lightweight Anomaly Detector</strong><br>
-      Built a CNN+OCSVM model trained using contrastive learning with NT-Xent loss. Distilled knowledge into a lightweight student model for real-time detection in microservices.
+        <strong>GBLight (2024 - 2025)</strong><br>
+        smart factory using ai
+        my role
+        본 프로젝트는 부산대학교 
+        develop front, backend, data preprocessing, model train
     </li>
+    <li>
+        <strong>SAVE (2024)</strong><br>
+        survey platform
+        my role
+        <!-- 팀장 in eng -->
+        이는 부산대학교 심리학과와 협력하여 암환자들을 위한 심리 교육 프로그램을 제공하는 웹 기반 플랫폼임
+        해당 프로젝트에서 나는 project manager로써 프로젝트의 전반적인 진행 및 설계를 담당하였음
+        이를 위해, 난 fastapi 및 react를 사용하여 프론트엔드 및 백엔드 개발 및 nginx를 사용하여 배포 및 관리를 담당함
+    </li>
+    <li>
+        <strong>Cloud RMF (Risk Management Framework) (2023 - 2024)</strong><br>
+        rmf
+        my role
+        NIST SP 800-37에서 제시한 전주기적 위험 관리 프레임워크에서 select, implement, assess 부분을 설계 및 구현하였음
+        본 프로젝트에서 나는 fastapi 및 react를 사용하여 프론트엔드 및 백엔드 개발을 담당하였음 
+    </li>
+    <a href="proj.html">[More]</a>
   </ul>
 
   <h2>Awards & Scholarships</h2>
   <ul>
-    <li>BK21 Four-Year Fellowship for Graduate Study (2023 – 2026)</li>
-    <li>Undergraduate Research Award, PNU (2022)</li>
+    <li>사이버 훈련장 ~~</li>
   </ul>
 
 </body>

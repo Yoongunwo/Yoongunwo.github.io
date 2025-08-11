@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gunwoo Yoon - Research & Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px;
+      background: #fff;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 32px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 60px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      color: #333;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .section {
+      margin-bottom: 60px;
+    }
+    .img-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .img-group img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    .citation {
+      font-style: italic;
+      color: #444;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gunwoo Yoon - Publications & Projects</h1>
+
+  <div class="section">
+    <h2>Publications</h2>
+
+    <h3>Container-Aware Syscall Collection in Cloud-Native Environments</h3>
+    <div class="img-group">
+      <img src="./images/syscall-arch.png" alt="Syscall Architecture" width="400">
+    </div>
+    <p>
+      This work presents a novel architecture for syscall collection in Kubernetes using eBPF tracepoints and tail calls. Each pod is instrumented with a dedicated ring buffer, ensuring low-overhead collection with high isolation. Our evaluation shows significant reduction in collection latency compared to centralized collectors such as Falco and Sysdig.
+    </p>
+    <p class="citation">Under review at USENIX ATC 2025 (to be submitted to arXiv)</p>
+
+    <h3>Knowledge-Distilled Anomaly Detection for Microservices</h3>
+    <p>
+      We propose a contrastive-learning-based framework that distills features from a teacher CNN into a lightweight student model, enabling deployment in constrained microservice environments. The system achieves competitive detection accuracy on CIC-IDS2017 and Kubernetes datasets.
+    </p>
+    <p class="citation">Under review at CCSW 2025 (to be submitted to arXiv)</p>
+
+    <h3>Cybersecurity Risk Assessment Visualization Framework</h3>
+    <p>
+      We developed a visualization system for cybersecurity risk assessment based on RMF, integrating real-time asset monitoring and threat visualization. The system was demonstrated in collaboration with government agencies.
+    </p>
+    <p class="citation">Presented at ACM SAC 2025</p>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+
+    <h3>CASB (Cloud Access Security Broker)</h3>
+    <p>
+      Designed a web-based CASB system that inspects and controls SaaS traffic based on user roles and policies. Integrated with cloud identity providers and enforced DLP policies for popular SaaS like Google Workspace and Microsoft 365.
+    </p>
+
+    <h3>GBLight</h3>
+    <p>
+      Developed a lightweight behavioral profiling system that uses network and syscall data to generate temporal fingerprints of containerized services. Applied contrastive learning to detect drift from baseline.
+    </p>
+
+    <h3>SAVE (Secure AI Visualization Environment)</h3>
+    <p>
+      Built a containerized dashboard that visualizes AI service activity and security posture in real time. Integrated model status, active system calls, and communication flows.
+    </p>
+
+    <h3>Cloud RMF Toolkit</h3>
+    <p>
+      Implemented a Risk Management Framework (RMF) toolkit for classifying, evaluating, and managing cloud assets. The toolkit supports tagging, visual dashboards, and NIST-based risk scoring.
+    </p>
+  </div>
+</body>
+</html>
